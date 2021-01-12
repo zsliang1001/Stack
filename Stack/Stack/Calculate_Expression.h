@@ -17,3 +17,4 @@ typedef enum {
 
 bool Bracket_Check(char data[], int length);
 int Postfix_Expression(char Express[], int length);
+int Infix_Expression(char Express[], int Length);

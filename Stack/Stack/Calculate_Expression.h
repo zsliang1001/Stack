@@ -14,3 +14,6 @@ typedef enum {
 	High		=2,		//À¨ºÅ
 	Idle_Prio	=3
 }Priority;
+
+bool Bracket_Check(char data[], int length);
+int Postfix_Expression(char Express[], int length);
